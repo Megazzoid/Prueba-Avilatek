@@ -17,6 +17,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        fontFamily: {
+          sans: ['Montserrat', 'sans-serif'],
+        },
         primary: {
           100: '#787878',
           200: '#5E5E5E',
