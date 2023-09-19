@@ -14,10 +14,10 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, price, rating }) => {
 
   const renderDogPaws = (count: number) => {
     const dogPaws = [];
-    for (let i = 0; i < count; i++) {
+    for (let i = 0; i < count; i += 1) {
       dogPaws.push(<DogPaw isFill={true} key={i} />);
     }
-    for (let i = count; i < 5; i++) {
+    for (let i = count; i < 5; i += 1) {
       dogPaws.push(<DogPaw isFill={false} key={i} />);
     }
     return dogPaws;

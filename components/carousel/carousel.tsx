@@ -32,7 +32,7 @@ const Carousel: React.FC = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      className="relative h-1/5 "
+      className="relative w-full mx-auto "
       data-te-carousel-init
       data-te-ride="carousel"
     >
