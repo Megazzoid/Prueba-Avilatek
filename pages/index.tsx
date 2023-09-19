@@ -5,6 +5,7 @@ import Navbar from '../components/navbar/navbar';
 import Carousel from '../components/carousel/carousel';
 import Categories from '../components/categories/categories';
 import FeatureProducts from '../components/products/featureproducts';
+import PopularProducts from '../components/products/popularproducts';
 
 function HomePage() {
   return (
@@ -12,7 +13,12 @@ function HomePage() {
       <Navbar />
       <Carousel />
       <Categories />
-      <FeatureProducts />
+      <div className="relative">
+        <FeatureProducts />
+      </div>
+      <div className="relative">
+        <PopularProducts />
+      </div>
     </div>
   );
 }

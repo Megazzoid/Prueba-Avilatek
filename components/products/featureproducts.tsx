@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import catimg from '../../assets/img/catimg.png';
 import FeatureCard from '../cards/featurecard';
+import imgbanner from '../../assets/img/imgbanner2.png';
+import imgbanner2 from '../../assets/img/imgbanner3.png';
 
 const featureCardsData = [
   {
@@ -63,7 +65,7 @@ const FeatureProducts = () => {
 
   return (
     <>
-      <div className={`navbar-container mt-10 h-32 flex-col w-full `}>
+      <div className={`navbar-container mt-10 flex-col w-full relative `}>
         <h3 className="text-[#867D77] text-xs sm:text-base ml-20">
           Lorem ipsum dolor sit amet.
         </h3>
@@ -96,6 +98,19 @@ const FeatureProducts = () => {
               />
             ))}
           </div>
+        </div>
+
+        <div className="w-full flex flex-row justify-center mt-32">
+          <Image
+            src={imgbanner2}
+            alt="cat"
+            style={{ width: '40%', height: 'auto' }}
+          />
+          <Image
+            src={imgbanner}
+            alt="cat"
+            style={{ width: '40%', height: 'auto' }}
+          />
         </div>
       </div>
     </>

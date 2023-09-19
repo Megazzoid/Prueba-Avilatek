@@ -2,16 +2,16 @@ import React from 'react';
 
 const SearchBar: React.FC = () => {
   return (
-    <div className="pt-2 relative mx-auto text-gray-600 w-1/5">
+    <div className="pt-2 relative mx-auto flex w-4/6 md:w-2/6 lg:w-1/6">
       <input
-        className="border-2 border-[#C8C2BE] bg-white h-10 px-5 pr-10 rounded-lg text-sm focus:outline-none w-full"
+        className="border-1 border-[#C8C2BE] bg-white h-10 px-5 pr-10 rounded-lg text-[#C8C2BE] font-thin  w-full"
         type="search"
         name="search"
         placeholder="Buscador"
       />
       <button type="submit" className="absolute right-0 top-0 mt-5 mr-4">
         <svg
-          className="text-[#C8C2BE] h-5 w-5 fill-current"
+          className="text-[#C8C2BE] h-4 w-4 fill-current"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 56.966 56.966"
         >
