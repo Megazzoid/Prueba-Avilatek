@@ -54,7 +54,7 @@ const Carousel: React.FC = () => {
             aria-current={index === activeIndex}
             aria-label={`Slide ${index + 1}`}
             onClick={() => handleIndicatorClick(index)}
-          ></button>
+          />
         ))}
       </div>
 
