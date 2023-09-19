@@ -35,17 +35,17 @@ const Navbar = () => {
           textColor="#F8F5F3"
         />
         <div className="ml-2 mr-2 ">
-          <Link href={'https://www.instagram.com/tiendasmaxipet/?hl=es'}>
+          <Link href="https://www.instagram.com/tiendasmaxipet/?hl=es">
             <Instagram color="white" />
           </Link>
         </div>
         <div className="ml-2 mr-2">
-          <Link href={'https://twitter.com/TiendasMaxiPet'}>
+          <Link href="https://twitter.com/TiendasMaxiPet">
             <Twitter color="white" />
           </Link>
         </div>
         <div className="ml-2 mr-20">
-          <Link href={'https://www.facebook.com/tiendasmaxipet/?locale=es_LA'}>
+          <Link href="https://www.facebook.com/tiendasmaxipet/?locale=es_LA">
             <Facebook color="white" />
           </Link>
         </div>

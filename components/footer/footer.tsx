@@ -56,17 +56,15 @@ const Footer = () => (
           <p className="text-[#867D77] mb-2">Lunes a Viernes</p>
           <p className="text-[#867D77] mb-2">9:00 a.m. - 5:00 p.m.</p>
           <div className="flex justify-start gap-4">
-            <Link href={'https://www.instagram.com/tiendasmaxipet/?hl=es'}>
+            <Link href="https://www.instagram.com/tiendasmaxipet/?hl=es">
               <Instagram color="#867D77" />
             </Link>
 
-            <Link href={'https://twitter.com/TiendasMaxiPet'}>
+            <Link href="https://twitter.com/TiendasMaxiPet">
               <Twitter color="#867D77" />
             </Link>
 
-            <Link
-              href={'https://www.facebook.com/tiendasmaxipet/?locale=es_LA'}
-            >
+            <Link href="https://www.facebook.com/tiendasmaxipet/?locale=es_LA">
               <Facebook color="#867D77" />
             </Link>
           </div>

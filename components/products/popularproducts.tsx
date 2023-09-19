@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import FeatureCard from '../cards/featurecard';
 import imgbanner from '../../assets/img/imgbanner1.png';

@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import ServiceCard from '../cards/servicecard';
 
 const Services = () => (
