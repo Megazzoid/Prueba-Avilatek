@@ -63,12 +63,12 @@ const LatestsProducts = () => {
         Lorem ipsum dolor sit amet.
       </h3>
       <h2 className="text-[#E2081E] text-xl sm:text-2xl font-bold ">
-        PRODUCTOS DESTACADOS
+        Ultimos productos
       </h2>
 
       <div className="flex flex-row">
         <div
-          className={`w-full md:w-full grid grid-cols-2 place-items-center lg:grid-cols-3 xl:grid-cols-3 gap-2 `}
+          className={`w-full md:w-4/6 grid grid-cols-2 place-items-center lg:grid-cols-3 xl:grid-cols-3 gap-2 `}
         >
           {featureCardsData.map((card, index) => (
             <FeatureCard
@@ -81,7 +81,7 @@ const LatestsProducts = () => {
         </div>
 
         {!hideCatImage && (
-          <div className="w-2/5 ml-auto flex justify-center">
+          <div className="w-2/6 ml-auto flex justify-center">
             <Image
               src={catimg}
               alt="cat"

@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import CategoryCard from '../cards/categorycard';
+import React, { useState } from 'react';
 import ServiceCard from '../cards/servicecard';
 
 const Services = () => {
-  // Use state to set the paddingClass value after the component has mounted
-  const [paddingClass, setPaddingClass] = useState('');
-
   return (
     <>
       <div className={`navbar-container mt-10 mb-10 flex-col w-5/6 mx-auto `}>
@@ -15,6 +11,11 @@ const Services = () => {
         <h2 className="text-[#E2081E] text-xl sm:text-2xl font-bold  mr-5">
           Nuestros Servicios
         </h2>
+
+        <h3 className="text-[#867D77] text-lg mt-3 mb-3 font-semibold sm:text-base ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut
+          viverra fames sed.
+        </h3>
         <div className="mt-5 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
           <div className="flex-col align-items-center justify-items-center  text-center">
             <ServiceCard title="Peluqueria" imgSrc="../../assets/img/dog.png" />
