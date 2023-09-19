@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import FeatureCard from '../cards/featurecard';
+import imgbanner from '../../assets/img/imgbanner1.png';
+import Image from 'next/image';
 
 const featureCardsData = [
   {
@@ -37,7 +39,7 @@ const PopularProducts = () => {
           Lorem ipsum dolor sit amet.
         </h3>
         <h2 className="text-[#E2081E] text-xl sm:text-2xl font-bold ml-20">
-          PRODUCTOS DESTACADOS
+          PRODUCTOS POPULARES
         </h2>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 ml-10">
@@ -49,6 +51,14 @@ const PopularProducts = () => {
               rating={card.rating}
             />
           ))}
+        </div>
+
+        <div className="w-full flex flex-row justify-center mt-32">
+          <Image
+            src={imgbanner}
+            alt="cat"
+            style={{ width: '80%', height: 'auto' }}
+          />
         </div>
       </div>
     </>

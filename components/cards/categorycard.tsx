@@ -1,5 +1,6 @@
 import React from 'react';
 import Dogbg from '../../assets/svg/dogbg';
+import dog from '../../assets/img/dog.png';
 import Image from 'next/image';
 
 interface CategoryCardProps {
@@ -11,9 +12,9 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ title, imgSrc }) => {
   return (
     <>
       <div className="flex-col align-items-center justify-items-center h-32 w-32 text-center">
-        <Dogbg /> {/* Cambia las clases CSS */}
+        <Dogbg />
         <Image
-          src={imgSrc}
+          src={dog}
           alt={title}
           width={120}
           height={120}

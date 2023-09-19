@@ -16,12 +16,15 @@ const Categories = () => {
           UNA GRAN VARIEDAD DE CATEGORIAS
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 gap-10 ml-20 mr-16">
-          <CategoryCard title="Perros" imgSrc={dog} />
-          <CategoryCard title="Gatos" imgSrc={dog} />
-          <CategoryCard title="Peces" imgSrc={dog} />
-          <CategoryCard title="Roedores" imgSrc={dog} />
-          <CategoryCard title="Reptiles" imgSrc={dog} />
-          <CategoryCard title="Placeholder" imgSrc={dog} />
+          <CategoryCard title="Perros" imgSrc="../../assets/img/dog.png" />
+          <CategoryCard title="Gatos" imgSrc="../../assets/img/dog.png" />
+          <CategoryCard title="Peces" imgSrc="../../assets/img/dog.png" />
+          <CategoryCard title="Roedores" imgSrc="../../assets/img/dog.png" />
+          <CategoryCard title="Reptiles" imgSrc="../../assets/img/dog.png" />
+          <CategoryCard
+            title="Placeholder"
+            imgSrc={'../../assets/img/dog.png'}
+          />
         </div>
 
         {/* Pasamos la imagen importada */}
