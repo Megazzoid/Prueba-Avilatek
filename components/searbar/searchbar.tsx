@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SearchBar: React.FC = () => (
-  <div className="pt-2 relative mx-auto flex w-4/6 md:w-2/6 lg:w-1/6">
+  <div className="pt-2 relative mx-auto flex w-3/6 md:w-4/7 lg:w-2/6">
     <input
       className="border-1 border-[#C8C2BE] bg-white h-10 px-5 pr-10 rounded-lg text-[#C8C2BE] font-thin  w-full"
       type="search"

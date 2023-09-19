@@ -9,7 +9,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, imgSrc }) => {
   return (
-    <div className="flex-col align-items-center justify-items-center  w-32 text-center">
+    <div className="flex-col align-items-center justify-items-center text-start">
       <Image
         src={dog}
         alt={title}
@@ -17,7 +17,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, imgSrc }) => {
         height={120}
         className="relative mt-5 z-2"
       />
-      <h2 className="mt-2 text-[#333333] text-lg font-bold">{title}</h2>{' '}
+      <h2 className="mt-2 text-[#333333] text-2xl font-bold">{title}</h2>{' '}
     </div>
   );
 };

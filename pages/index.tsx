@@ -7,6 +7,7 @@ import PopularProducts from '../components/products/popularproducts';
 import LatestsProducts from '../components/products/latestsproducts';
 import Services from '../components/products/services';
 import TopBrands from '../components/topbrands/topbrands';
+import Footer from '../components/footer/footer';
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
       <LatestsProducts />
       <Services />
       <TopBrands />
+      <Footer />
     </div>
   );
 }

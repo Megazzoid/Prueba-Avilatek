@@ -2,16 +2,15 @@ import React, { FC } from 'react';
 
 interface MapIconProps {
   color: string;
-  size: string;
 }
 
-const MapIcon: FC<MapIconProps> = ({ color, size }) => {
+const MapIcon: FC<MapIconProps> = ({ color }) => {
   return (
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width={size}
-        height={size}
+        width="24"
+        height="24"
         viewBox="0 0 14 14"
         fill="none"
       >
