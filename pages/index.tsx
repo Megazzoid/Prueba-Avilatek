@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import logo from '../public/logo.png';
 import Navbar from '../components/navbar/navbar';
 import Carousel from '../components/carousel/carousel';
 import Categories from '../components/categories/categories';

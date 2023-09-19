@@ -1,6 +1,6 @@
 import React from 'react';
-import catfood from '../../assets/img/catfood.png';
 import Image from 'next/image';
+import catfood from '../../assets/img/catfood.png';
 import DogPaw from '../../assets/svg/dogpaw';
 
 interface FeatureCardProps {

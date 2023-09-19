@@ -1,7 +1,8 @@
 import React from 'react';
 import Dogbg from '../../assets/svg/dogbg';
-import dog from '../../assets/img/dog.png';
 import Image from 'next/image';
+import dog from '../../assets/img/dog.png';
+
 
 interface CategoryCardProps {
   title: string;
