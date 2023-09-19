@@ -91,7 +91,7 @@ const Footer = () => (
 
     {/* Section : Copyright and Credits */}
     <div className="h-9 bg-[#E2081E] flex flex-row justify-center">
-      <p className="mt-2 text-[#FEFEFE] text-sm lg:text-base">
+      <p className="mt-2 text-[#FEFEFE] text-xs lg:text-base">
         Copyright © 2021 Maxi Pet.
         <span className="hidden lg:inline ml-2 mr-2">
           Todos los Derechos Reservados.
