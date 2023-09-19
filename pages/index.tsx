@@ -19,10 +19,7 @@ function HomePage() {
       <PopularProducts />
       <LatestsProducts />
       <Services />
-      <div id="brands">
-        <TopBrands />
-      </div>
-
+      <TopBrands />
       <Footer />
     </div>
   );

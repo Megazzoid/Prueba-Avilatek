@@ -5,6 +5,8 @@ import FeatureCard from '../cards/featurecard';
 import imgbanner from '../../assets/img/imgbanner2.png';
 import imgbanner2 from '../../assets/img/imgbanner3.png';
 
+// Data for the featured product cards.
+
 const featureCardsData = [
   {
     title: '1st Choice Puppy Chiot',
@@ -39,10 +41,11 @@ const featureCardsData = [
 ];
 
 const FeatureProducts = () => {
+  // State variable to control the visibility of the cat image.
   const [hideCatImage, setHideCatImage] = useState(false);
 
+  // Use useEffect to handle window resizing and update the state accordingly.
   useEffect(() => {
-    // Función para determinar si se debe ocultar la imagen del gato
     const handleWindowResize = () => {
       if (window.innerWidth < 900) {
         setHideCatImage(true);
@@ -51,13 +54,10 @@ const FeatureProducts = () => {
       }
     };
 
-    // Escuchar cambios en el tamaño de la ventana
     window.addEventListener('resize', handleWindowResize);
 
-    // Llamar a la función inicialmente para configurar el estado
     handleWindowResize();
 
-    // Limpiar el evento cuando el componente se desmonta
     return () => {
       window.removeEventListener('resize', handleWindowResize);
     };

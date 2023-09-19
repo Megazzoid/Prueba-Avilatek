@@ -19,7 +19,7 @@ const Services = () => (
     <div className="mt-5 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
       <div className="flex-col align-items-center justify-items-center  text-center">
         <ServiceCard title="Peluqueria" imgSrc="../../assets/img/dog.png" />
-        <p className="text-[#333333] text-justify">
+        <p className="text-[#333333] text-justify text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie
           rhoncus id nunc, porta leo tempus facilisi.
         </p>
@@ -27,7 +27,7 @@ const Services = () => (
 
       <div className="flex-col align-items-center justify-items-center  text-center">
         <ServiceCard title="Odontologia" imgSrc="../../assets/img/dog.png" />
-        <p className="text-[#333333] text-justify">
+        <p className="text-[#333333] text-justify text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie
           rhoncus id nunc, porta leo tempus facilisi.
         </p>
@@ -35,7 +35,7 @@ const Services = () => (
 
       <div className="flex-col align-items-center justify-items-center  text-center">
         <ServiceCard title="Veterinario" imgSrc="../../assets/img/dog.png" />
-        <p className="text-[#333333] text-justify">
+        <p className="text-[#333333] text-justify text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie
           rhoncus id nunc, porta leo tempus facilisi.
         </p>
@@ -43,7 +43,7 @@ const Services = () => (
 
       <div className="flex-col align-items-center justify-items-center  text-center">
         <ServiceCard title="Entrenamiento" imgSrc="../../assets/img/dog.png" />
-        <p className="text-[#333333] text-justify">
+        <p className="text-[#333333] text-justify text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie
           rhoncus id nunc, porta leo tempus facilisi.
         </p>
@@ -53,7 +53,7 @@ const Services = () => (
           title="Psicologia canina"
           imgSrc="../../assets/img/dog.png"
         />
-        <p className="text-[#333333] text-justify">
+        <p className="text-[#333333] text-justify text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie
           rhoncus id nunc, porta leo tempus facilisi.
         </p>
@@ -64,7 +64,7 @@ const Services = () => (
           title="Fiesta de cumpleaños"
           imgSrc="../../assets/img/dog.png"
         />
-        <p className="text-[#333333] text-justify">
+        <p className="text-[#333333] text-justify text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie
           rhoncus id nunc, porta leo tempus facilisi.
         </p>

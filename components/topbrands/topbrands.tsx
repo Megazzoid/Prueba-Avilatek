@@ -2,7 +2,10 @@ import Image from 'next/image';
 import brand from '../../assets/img/brand.png';
 
 const TopBrands = () => (
-  <div className={`navbar-container mt-10 mb-10 flex-col w-5/6 mx-auto `}>
+  <div
+    className={`navbar-container mt-10 mb-10 flex-col w-5/6 mx-auto `}
+    id="brands"
+  >
     <h3 className="text-[#867D77] text-xs sm:text-base ">
       Lorem ipsum dolor sit amet.
     </h3>

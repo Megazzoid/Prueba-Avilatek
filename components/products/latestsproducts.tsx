@@ -37,8 +37,9 @@ const featureCardsData = [
 ];
 
 const LatestsProducts = () => {
-  const [hideCatImage, setHideCatImage] = useState(false);
+  const [hideCatImage, setHideCatImage] = useState(false); // State variable to control image visibility
 
+  // Effect to handle window resize and update the image visibility
   useEffect(() => {
     const handleWindowResize = () => {
       if (window.innerWidth < 900) {
@@ -55,7 +56,7 @@ const LatestsProducts = () => {
     return () => {
       window.removeEventListener('resize', handleWindowResize);
     };
-  }, []);
+  }, []); //
 
   return (
     <div className={`navbar-container mt-10 flex-col w-5/6 mx-auto relative `}>
@@ -70,6 +71,7 @@ const LatestsProducts = () => {
         <div
           className={`w-full md:w-4/6 grid grid-cols-2 place-items-center lg:grid-cols-3 xl:grid-cols-3 gap-2 `}
         >
+          {/* Mapping through the featureCardsData array and rendering FeatureCard components */}
           {featureCardsData.map((card, index) => (
             <FeatureCard
               key={index}
@@ -80,6 +82,7 @@ const LatestsProducts = () => {
           ))}
         </div>
 
+        {/* Rendering the cat image if hideCatImage is false */}
         {!hideCatImage && (
           <div className="w-2/6 ml-auto flex justify-center">
             <Image

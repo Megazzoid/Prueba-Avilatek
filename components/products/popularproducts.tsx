@@ -2,6 +2,7 @@ import Image from 'next/image';
 import FeatureCard from '../cards/featurecard';
 import imgbanner from '../../assets/img/imgbanner1.png';
 
+// Define an array of feature card data
 const featureCardsData = [
   {
     title: '1st Choice Puppy Chiot',
@@ -42,7 +43,9 @@ const PopularProducts = () => (
       PRODUCTOS POPULARES
     </h2>
 
+    {/* Create a grid for displaying feature cards */}
     <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 ">
+      {/* Map through featureCardsData and render FeatureCard components */}
       {featureCardsData.map((card, index) => (
         <FeatureCard
           key={index}
@@ -53,6 +56,7 @@ const PopularProducts = () => (
       ))}
     </div>
 
+    {/* Display an image banner */}
     <div className="w-full flex flex-row justify-center mt-32">
       <Image
         src={imgbanner}
